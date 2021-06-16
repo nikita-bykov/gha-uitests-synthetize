@@ -3,10 +3,10 @@ import SwiftUI
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    lazy var appComponent = AppComponent()
+    //lazy var appComponent = AppComponent()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        appComponent.setActivationPolicy(NSApplication.ActivationPolicy.accessory)
+        NSApp.setActivationPolicy(NSApplication.ActivationPolicy.accessory)
     }
 
 }

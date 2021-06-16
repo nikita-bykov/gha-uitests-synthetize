@@ -6,7 +6,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     lazy var appComponent = AppComponent()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        appComponent.setActivationPolicy(NSApplicationActivationPolicy.accessory)
+        appComponent.setActivationPolicy(NSApplication.ActivationPolicy.accessory)
     }
 
 }
